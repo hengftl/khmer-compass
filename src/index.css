@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: 'Moulpali', cursive;
 }
@@ -5,7 +9,3 @@ body {
 body > *:not(#root) {
   display: none !important;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
