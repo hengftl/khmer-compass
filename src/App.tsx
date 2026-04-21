@@ -35,7 +35,7 @@ function App() {
 
     const handleOrientation = (event: DeviceOrientationEvent) => {
       if (event.alpha !== null) {
-        setHeading(360 - event.alpha);
+        setHeading(event.alpha);
       }
     };
 
