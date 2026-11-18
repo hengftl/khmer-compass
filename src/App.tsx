@@ -71,7 +71,7 @@ function App() {
   };
 
   return (
-    <div className="h-[100dvh] w-full overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center px-4 py-3">
+    <div className="h-[100dvh] w-full overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center px-6 py-5 sm:px-8 sm:py-6">
       <div className="w-full max-w-md flex flex-col min-h-0 flex-1">
         <div className="text-center mb-2 shrink-0">
           <h1 className="text-2xl sm:text-3xl font-bold text-white leading-tight">ត្រីវិស័យ</h1>
@@ -107,7 +107,7 @@ function App() {
           {isSupported && permissionGranted && (
             <div
               className="relative w-full max-w-md aspect-square"
-              style={{ width: 'min(100%, calc(100dvh - 230px))' }}
+              style={{ width: 'min(100%, calc(100dvh - 250px))' }}
             >
               <div className="absolute inset-0 transition-transform duration-300 ease-out" style={{ transform: `rotate(${heading}deg)` }}>
                 <div className="relative w-full h-full">
